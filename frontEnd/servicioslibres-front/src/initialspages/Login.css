@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background: #fff;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: #097894;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 90px;
+    height: 6px;
+    background: #097894;
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 800px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 500px;
+    height: 80px;
+    background: #9ce3ff9f;
+    border-radius: 6px;
+    
+}
+.input img{
+    margin: 0px 30px;
+    width: 30px;
+}
+.servlibres_icon{
+    width: 250px;
+    margin-top: 30px;
+}
+
+.login-input {
+    width: 350px;
+    padding: 7px;
+    font-size: 16px;
+    background-color: white;
+    color: black; 
+    border: 1px solid #ccc;
+  }
